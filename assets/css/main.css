@@ -175,7 +175,7 @@
 	}
 
 	.row > * {
-		float: left;
+		/*float: left;*/
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
@@ -329,7 +329,7 @@
 	}
 
 	.\36 u, .\36 u\24 {
-		width: 50%;
+		width: 100%;
 		clear: none;
 		margin-left: 0;
 	}
@@ -1096,6 +1096,7 @@
 		font-family: 'Open Sans', sans-serif;
 		color: #7b818c;
 		font-weight: 400;
+		font-size: large;
 	}
 
 	a {
@@ -1219,7 +1220,7 @@
 			/*text-transform: uppercase;*/
 			font-weight: 700;
 			letter-spacing: 0.065em;
-			font-size: 0.9em;
+			font-size: 1.0em; /*0.9*/
 			color: #696969;
 			margin: 0;
 		}
@@ -1518,7 +1519,7 @@
 		font-size: 0.9em;
 		color: #696969;
 		float: left;
-		width: 6em;
+		/*width: 6em;*/
 	}
 
 	dl.contact dd {
@@ -1782,6 +1783,7 @@
 		text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
 		position: relative;
 		z-index: 2;
+		text-align: center;
 	}
 
 		#footer h2 {
@@ -1823,7 +1825,7 @@
 		border-color: #444;
 		border-color: rgba(255, 255, 255, 0.075);
 		text-align: center;
-		margin-top: 2em;
+		/*margin-top: 2em;*/
 		padding: 3em 0 4em 0;
 		color: inherit;
 	}
@@ -1839,7 +1841,7 @@
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 11pt;
+				/*font-size: 11pt;*/
 				line-height: 1.85em;
 			}
 
@@ -1981,9 +1983,8 @@
 			}
 
 				#banner p {
-					float: left;
-					text-align: right;
-					width: 60%;
+					text-align: center;
+					width: 100%;
 					line-height: 1.5em;
 					margin: 0;
 				}
@@ -2084,7 +2085,7 @@
 
 		/* Image */
 
-			.image.left {
+			.image.center {
 				width: 25%;
 				margin-bottom: 2em !important;
 			}
@@ -2368,3 +2369,5 @@
 			}
 
 	}
+
+
